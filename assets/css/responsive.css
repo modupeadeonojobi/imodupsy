@@ -206,6 +206,10 @@
 	#colorOptionsSidebar {
 		display: none;
 	}
+
+	.hero-2-img {
+		display: none;
+	}
 	
 	#rtlSidebar {
 		display: none;
@@ -560,6 +564,10 @@
 	.hero-single-2 .hero-content-2 p {
 		padding-right: 4rem;
 	}
+
+	.hero-2-img {
+		display: none;
+	}
 	
 	.s-pd {
 		padding: 0 1rem;
@@ -594,6 +602,10 @@
 	.fun-fact .fun-desc .medium {
 		font-size: 1.3rem;
 		line-height: 20px;
+	}
+
+	.fun-fact .fun-desc .timer {
+		font-size: 2rem;
 	}
 	
 	.fun-fact:nth-child(2) {

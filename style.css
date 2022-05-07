@@ -604,16 +604,21 @@ label {
   background-color: var(--clr-white); }
 
 .navbar .navbar-brand .logo-display {
-  display: block; }
+  display: block;
+  height: 4rem;
+ }
 
 .navbar .navbar-brand .logo-scrolled {
-  display: none; }
+  display: none;
+  height: 4rem; 
+}
 
 .navbar.fixed-top .navbar-brand .logo-display {
   display: none; }
 
 .navbar.fixed-top .navbar-brand .logo-scrolled {
-  display: block; }
+  display: block;
+  height: 4rem; }
 
 button.navbar-toggler {
   font-size: 3.5rem;
