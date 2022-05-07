@@ -590,6 +590,10 @@
 	.about-pic {
 		margin-bottom: 3rem;
 	}
+
+	.about-right .about-title {
+		font-size: 2.6rem;
+	}
 	
 	/*	Play Button*/
 	
