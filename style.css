@@ -1515,7 +1515,7 @@ button#submit.tm-btn-2 i {
 .contact-form .contact-sub-btn {
   margin-top: 4rem;
   text-align: center; }
-  .contact-form .contact-sub-btn button {
+ .contact-form .contact-sub-btn button, .send-mail button a {
     font-family: var(--font-2);
     font-size: 1.6rem;
     border: none;
@@ -1524,8 +1524,15 @@ button#submit.tm-btn-2 i {
     transition: .5s ease-in-out; }
     .contact-form .contact-sub-btn button:hover {
       color: var(--clr-white);
-      background-color: var(--clr-def); }
+      background-color: var(--clr-def); 
+    }
 
+.send-mail button {
+  border: none;
+  border-radius: 50px;
+}
+
+    
 textarea.form-control {
   height: 15rem !important;
   padding-top: 2rem !important; }
